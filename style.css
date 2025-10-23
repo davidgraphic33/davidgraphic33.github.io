@@ -1,12 +1,13 @@
 html{
-    background-color: rgb(255, 0, 85);
+    background-color: rgb(0, 0, 0);
 }
-*{
-    border:solid 1px white;
-}
+
 main{
     display: flex;
+	flex-flow: column;
     justify-content: center;
+	gap: 2rem;
+	min eight: 80vh;
     align-items: center;
     flex-direction: column;
     padding-top: 5rem;
@@ -23,3 +24,60 @@ main{
 }
 
 .nav ul
+*{
+	font-family: "Pixelify Sans", sans-serif;
+	padding: 8px;
+	margin: 10px;
+	color: #ffffff;
+}
+
+body{
+	background-color: rgb(0, 0, 0);
+}
+
+main{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+	min-height: 80vh;
+}
+
+li a{
+	margin-block: 0.5rem;
+	display: inline-block;
+	text-decoration: none;
+	background-color: rgb(255, 0, 21);
+	padding-inline: 3rem;
+	padding-block: 5rem;
+	border-radius: 20px;
+	border: solid 3px rgb(255, 255, 255);
+	transition: all .3s ease-in-out;
+}
+
+li a:hover{
+	background-color: rgb(128, 13, 162);
+	border: solid 3px rgb(255, 255, 255);
+
+	transform: scale(1.1) rotate(2deg);
+
+}
+
+ul{
+	list-style-type: none;
+}
+
+.titulo h1{
+	font-family: "Pixelify Sans", sans-serif;
+	font-size: 5rem;
+	color: rgb(255, 255, 255);
+}
+
+.titulo p{
+	font-family: "Pixelify Sans", sans-serif;
+	text-align: center;
+	font-size: .8rem;
+	color: rgb(255, 255, 255);
+}
+
